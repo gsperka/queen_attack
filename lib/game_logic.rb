@@ -6,8 +6,8 @@ class GameLogic
   attr_reader :white, :black, :board
 
   def initialize(white_queen, black_queen)
-    @white = white_queen || Queen.new(3,5)
-    @black = black_queen || Queen.new(1,1)
+    @white = white_queen
+    @black = black_queen 
     @board = Board.new.blank_board
     same_position?
     valid_position?
@@ -58,9 +58,3 @@ class GameLogic
   end
 
 end
-
-# white = Queen.new(1,4)
-# black = Queen.new(1,2)
-
-# game = GameLogic.new(white, black)
-# game.start
