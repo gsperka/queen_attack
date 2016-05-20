@@ -37,7 +37,7 @@ class GameLogic
   end
 
   def attack?
-    (row_attack? || col_attack? || diagonal_attack?) ? (p "Yes! The Queen can attack!") : (p "No, The Queens can't attack!")
+    (row_attack? || col_attack? || diagonal_attack?) ? (p "Yes! The Queen can attack!") : (p "No, The Queen can't attack!")
   end
 
   def row_attack?
