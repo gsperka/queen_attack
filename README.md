@@ -15,15 +15,9 @@ ruby start.rb
 ```
 Your output should look like this:
 
-![Output example](http://i.imgur.com/btla7Kj.png)
+![Output example](http://i.imgur.com/I1BZLvd.png)
 
 The "W" represents where the White Queen is positioned while the "B" represents the Black Queen's position.
-
-Your output should look like this:
-
-![Output example](http://i.imgur.com/btla7Kj.png)
-
-Note: The "W" represents where the White Queen is positioned while the "B" represents the Black Queen's position.
 
 ##Change the Queen's position:
 
