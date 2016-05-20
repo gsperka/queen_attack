@@ -3,14 +3,13 @@ require_relative 'queen'
 
 class GameLogic
 
-  attr_reader :white, :black, :board
+  attr_accessor :white, :black, :board
 
   def initialize(white_queen, black_queen)
     @white = white_queen
     @black = black_queen 
     @board = Board.new.blank_board
     same_position?
-    valid_position?
   end
 
   def start
@@ -22,10 +21,6 @@ class GameLogic
 
   def same_position?
     raise ArgumentError, 'Queens cannot occupy same space' if ((white.row == black.row) && (white.column == black.column))
-  end
-
-  def valid_position?
-    raise ArgumentError, 'Please enter values between 0 and 7' if ([white.row, white.column, black.row, black.column]).any? {|i| (i > 7) | (i < 0)}
   end
 
   def place_queens
@@ -42,7 +37,7 @@ class GameLogic
   end
 
   def attack?
-    (row_attack? || col_attack? || diagonal_attack?) ? (return puts "Yes! The Queen can attack!") : (return puts "No, The Queens can't attack!")
+    (row_attack? || col_attack? || diagonal_attack?) ? (p "Yes! The Queen can attack!") : (p "No, The Queens can't attack!")
   end
 
   def row_attack?
