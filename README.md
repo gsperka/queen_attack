@@ -13,6 +13,11 @@ $ git clone https://github.com/gsperka/queen_attack
 cd queen_attack
 ruby start.rb
 ```
+Your output should look like this:
+
+![Output example](http://i.imgur.com/btla7Kj.png)
+
+The "W" represents where the White Queen is positioned while the "B" represents the Black Queen's position.
 
 Your output should look like this:
 
@@ -28,8 +33,8 @@ config/queens_position.yml
 ```
 
 To change the starting position, simply open 
-```ruby queens_position.yml ``` and update the row or column of the Queen. 
-Note: if you don't put in an integer between 0-7, an error will be thrown.
+```queens_position.yml ``` and update the row or column of the Queen. 
+If you don't put in an integer between 0-7, an error will be thrown.
 
 
 ##Tests
@@ -37,6 +42,13 @@ To run the tests for this program:
 
 From root
 ```ruby
-cd rspec
+cd spec
 rspec .
+```
+
+or to run a specific test file:
+
+```ruby
+cd spec
+rspec game_logic_spec.rb
 ```
