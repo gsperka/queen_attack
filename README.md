@@ -36,6 +36,13 @@ To run the tests for this program:
 
 From root
 ```ruby
-cd rspec
+cd spec
 rspec .
+```
+
+or to run a specific test file:
+
+```ruby
+cd spec
+rspec game_logic_spec.rb
 ```
