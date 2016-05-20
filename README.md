@@ -17,7 +17,7 @@ Your output should look like this:
 
 ![Output example](http://i.imgur.com/btla7Kj.png)
 
-Note: The "W" represents where the White Queen is positioned while the "B" represents the Black Queen's position.
+The "W" represents where the White Queen is positioned while the "B" represents the Black Queen's position.
 
 ##Change the Queen's position:
 
@@ -28,7 +28,7 @@ config/queens_position.yml
 
 To change the starting position, simply open 
 ```queens_position.yml ``` and update the row or column of the Queen. 
-Note: if you don't put in an integer between 0-7, an error will be thrown.
+If you don't put in an integer between 0-7, an error will be thrown.
 
 
 ##Tests
