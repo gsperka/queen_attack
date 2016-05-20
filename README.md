@@ -13,6 +13,8 @@ $ git clone https://github.com/gsperka/queen_attack
 cd queen_attack
 ruby start.rb
 ```
+Your output should look like this:
+
 ![Output example](http://i.imgur.com/btla7Kj.png)
 
 Note: The "W" represents where the White Queen is positioned while the "B" represents the Black Queen's position.
