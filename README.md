@@ -19,7 +19,7 @@ Your output should look like this:
 
 The "W" represents where the White Queen is positioned while the "B" represents the Black Queen's position.
 
-##Change the Queen's position:
+##Change the Queen's position
 
 Currently, the Queen's positions are determined by the yaml file located in 
 ``` 
@@ -40,7 +40,7 @@ cd spec
 rspec .
 ```
 
-or to run a specific test file:
+or to run a specific test:
 
 ```ruby
 cd spec
