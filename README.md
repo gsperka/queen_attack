@@ -22,7 +22,7 @@ config/queens_position.yml
 ```
 
 To change the starting position, simply open 
-```ruby queens_position.yml ``` and update the row or column of the Queen. 
+```queens_position.yml ``` and update the row or column of the Queen. 
 Note: if you don't put in an integer between 0-7, an error will be thrown.
 
 
