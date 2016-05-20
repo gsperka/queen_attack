@@ -44,5 +44,5 @@ or to run a specific test:
 
 ```ruby
 cd spec
-rspec game_logic_spec.rb
+rspec game_spec.rb
 ```
