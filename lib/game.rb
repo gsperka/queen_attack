@@ -1,7 +1,7 @@
 require_relative 'board'
 require_relative 'queen'
 
-class GameLogic
+class Game
 
   attr_accessor :white, :black, :board
 

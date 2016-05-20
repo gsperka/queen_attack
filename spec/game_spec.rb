@@ -1,11 +1,11 @@
 require 'rspec'
-require_relative '../lib/game_logic'
+require_relative '../lib/game'
 
-describe 'GameLogic' do
+describe 'Game' do
 
   let(:white_queen) {Queen.new(2,4)}
   let(:black_queen) {Queen.new(1,5)}
-  let(:new_game) {GameLogic.new(white_queen, black_queen)}
+  let(:new_game) {Game.new(white_queen, black_queen)}
 
   describe '#same_position?' do 
 
