@@ -54,7 +54,7 @@ describe 'GameLogic' do
   	white_queen.row = 0
   	black_queen.column = 7
   	black_queen.row = 1
-  	expect(new_game.start).to eql "No, The Queens can't attack!"
+  	expect(new_game.start).to eql "No, The Queen can't attack!"
   end
 
 end
